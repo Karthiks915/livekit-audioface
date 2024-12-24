@@ -16,7 +16,8 @@ class CustomVoiceAgent {
       },
       tts: new ElevenLabsTTS({
         apiKey: process.env.ELEVENLABS_API_KEY,
-        voiceId: 'your_voice_id'
+        voiceId: '21m00Tcm4TlvDq8ikWAM',
+        model: 'eleven_flash_v2'
       })
     });
   }
