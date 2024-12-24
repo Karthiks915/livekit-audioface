@@ -1,0 +1,22 @@
+{
+  "name": "livekit-voice-avatar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@livekit/agents": "^0.6.0",
+    "@livekit/agents-plugin-deepgram": "^0.5.1",
+    "@livekit/agents-plugin-elevenlabs": "^0.5.2",
+    "@livekit/rtc-node": "^0.12.2",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "livekit-client": "^2.7.5",
+    "livekit-server-sdk": "^2.9.4"
+  }
+}
